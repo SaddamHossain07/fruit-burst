@@ -42,10 +42,51 @@
 </head>
 
 <body class="font-lato">
+    <!-- Navbar section  -->
 
     <!-- header section  -->
     <header class="container mx-auto">
+        <div class="my-5 lg:my-12 lg:text-white items-center">
+            <div class="navbar md:bg-white lg:bg-primary-color py-4 lg:py-7 lg:px-12 rounded-full flex justify-between">
 
+                <div class="hidden lg:flex gap-2">
+                    <ul class="menu menu-horizontal text-xs lg:text-sm">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex gap-4">
+                    <img src="./images/logo.png" alt="">
+                    <h3 class="text-3xl md:text-4xl font-bold">Fruit Burst</h3>
+                </div>
+
+                <div class="flex lg:flex-col-reverse">
+                    <input type="text" placeholder="Search"
+                        class="input input-bordered rounded-full max-w-xs hidden lg:flex" />
+
+                    <div class="dropdown lg:hidden md:text-black">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         <!-- Banner Section -->
         <div class="carousel w-full">
